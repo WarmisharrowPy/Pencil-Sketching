@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread("dog.jpg")
+image = cv2.imread("#add the name of the image")
 cv2.imshow("Dog", image)
 cv2.waitKey(0)
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
